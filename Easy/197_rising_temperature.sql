@@ -1,5 +1,5 @@
+/*
 Problem:
-
 Find all dates' ids where the temperature is higher than the previous day.
 
 Approach:
@@ -8,8 +8,7 @@ Approach:
 - w2 represents yesterday's weather data.
 - Match rows where today's date is exactly 1 day after yesterday's date.
 - Then check if today's temperature is greater than yesterday's temperature.
-
-----------------------------------------------
+*/
 
 SELECT w1.id
 FROM Weather w1
