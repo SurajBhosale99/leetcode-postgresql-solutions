@@ -17,6 +17,4 @@ from(select salary,
 DENSE_RANK() OVER(ORDER BY salary desc) as rnk
 from employees
 )t
-
-
 where rnk=2;
